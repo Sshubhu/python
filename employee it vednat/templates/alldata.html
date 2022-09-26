@@ -1,0 +1,30 @@
+<table border ="1px">
+<tr>
+<th>emp ID</th>
+<th>name</th>
+<th>address</th>
+<th>contact Number</th>
+<th>aadharcard Number</th>
+<th>age</th>
+<th>designation</th>
+</tr>
+{% for tup in elist %}
+<tr>
+<td>{{tup[0]}}</td>
+<td>{{tup[1]}}</td>
+<td>{{tup[2]}}</td>
+<td>{{tup[3]}}</td>
+<td>{{tup[4]}}</td>
+<td>{{tup[5]}}</td>
+<td>{{tup[6]}}</td>
+</tr>
+{% endfor %}
+</table>
+
+
+    <div class="col-6">
+      <a href="http://127.0.0.1:5000/index" class="btn btn-primary">Back</a>
+    </div>
+
+
+
